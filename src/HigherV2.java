@@ -1,0 +1,2 @@
+public class HigherV2 {
+}
