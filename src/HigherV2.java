@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class HigherV2 {
     public static void main(String[] args) {
-        // TODO: Tratamento de erros
+        // TODO: Tratamento de erros, caso o usuário digite letras ou numeros negativos ou numeros iguais, por exemplo
 
         int n1, n2, n3, n4;
         JOptionPane.showMessageDialog(null,
