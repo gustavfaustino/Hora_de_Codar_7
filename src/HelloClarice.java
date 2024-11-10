@@ -7,14 +7,14 @@ public class HelloClarice {
         // TODO: Tratamento de erros
         String userName = JOptionPane.showInputDialog(null,
                 "Olá! Como vai voce?\n\nQual o seu nome?",
-                "Hello Clarice!", 3);
+                "Hello Clarice!", JOptionPane.QUESTION_MESSAGE);
 
         int userAge = Integer.parseInt(JOptionPane.showInputDialog(null,
                 String.format("É um prazer conhecer você, %s!!\n\nQual a sua idade?", userName),
-                "Hello Clarice!", 3));
+                "Hello Clarice!", JOptionPane.QUESTION_MESSAGE));
 
         JOptionPane.showMessageDialog(null,
                 String.format("Seu nome é %s e sua idade é %d anos.\n\nObrigado por participar!", userName, userAge),
-                "Hello Clarice!", 1);
+                "Hello Clarice!", JOptionPane.INFORMATION_MESSAGE);
     }
 }
